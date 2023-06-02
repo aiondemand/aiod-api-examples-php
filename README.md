@@ -7,7 +7,7 @@ This repository contains various examples build in PHP, which utilise the AI-on-
 - Basic understanding of the PHP coding language.
 - A local development environment which allows the execution of PHP code:
   - On Linux you can install PHP with `sudo apt-get install php`
-  - On macOS you can use `brew install php`
+  - On macOS, you can use `brew install php`
   - On Windows you can download and install PHP from [php.net](https://windows.php.net/).
 - [Docker](https://www.docker.com/) in order to install and run the AI-on-Demand API ([AIoD API](https://github.com/aiondemand/AIOD-rest-api)) version [0.3.20220501](https://github.com/aiondemand/AIOD-rest-api/releases/tag/0.3.20220501).
 - [Composer](https://getcomposer.org/) for the *advanced* example.
@@ -105,7 +105,7 @@ By now, you have learned how to use PHP and cURL to send data to the API and to 
 
 ### 1. Create the API client libraries
 
-The AIoD API follows the [OpenAPI](https://github.com/OAI/OpenAPI-Specification) specification and therefore it's extremely easy to build libraries for accessing its endpoints in order to store and/or retrieve data. In fact, this can be done automatically with the help of [Swagger Codegen](https://github.com/swagger-api/swagger-codegen), a project which allows generation of API client libraries (SDK generation), server stubs and documentation automatically given an OpenAPI Spec.
+The AIoD API follows the [OpenAPI](https://github.com/OAI/OpenAPI-Specification) specification, and therefore it's extremely easy to build libraries for accessing its endpoints in order to store and/or retrieve data. In fact, this can be done automatically with the help of [Swagger Codegen](https://github.com/swagger-api/swagger-codegen), a project which allows generation of API client libraries (SDK generation), server stubs and documentation automatically given an OpenAPI Spec.
 
 You can find the OpenAPI Spec for your local installation of the AIoD API on [localhost:8000/openapi.json](http://localhost:8000/openapi.json). From there, you can simply follow the instructions on the Swagger Codegen project to build the required libraries, or use the tool at 
 [editor.swagger.io](https://editor.swagger.io/) to load the `openapi.json` file (via the File > Import File menu) and then to generate the client for PHP (via Generate Client > php).
@@ -148,7 +148,7 @@ try {
 }
 ```
 
-As you can see, this is even more easier than the... basic example, thanks to the libraries that the Swagger Codegen has generated. Feel free to take a look at the complete example at [example-advanced-1-hello-world.php](./SwaggerClient-php/example-advanced-1-hello-world.php), run it on your own machine and experiment! 
+As you can see, this is even easier than the... basic example, thanks to the libraries that the Swagger Codegen has generated. Feel free to take a look at the complete example at [example-advanced-1-hello-world.php](./SwaggerClient-php/example-advanced-1-hello-world.php), run it on your own machine and experiment! 
 
 Enjoy the AIoD API!
 
