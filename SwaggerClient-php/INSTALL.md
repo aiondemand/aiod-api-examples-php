@@ -1,0 +1,1 @@
+After building the `SwaggerClient-php` client libraries using the [Swagger Codegen](https://github.com/swagger-api/swagger-codegen) or the the tool at [editor.swagger.io](https://editor.swagger.io/), please move **all of its contents** (directories `docs`, `lib`, `test`, along with the `composer.json`, `composer.lock` & other files to **this folder**.

@@ -1,0 +1,18 @@
+# Project specific
+/SwaggerClient-php/*
+!/SwaggerClient-php/INSTALL.md
+!/SwaggerClient-php/example*.php
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+Network Trash Folder
+Temporary Items
+.apdisk
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+openapi.json
+.idea/*
