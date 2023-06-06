@@ -1,9 +1,10 @@
 <?php
+
 /* Simple example: Insert a news item to the AIoD API using PHP's cURL.
  *
  * As long as PHP and the AIoD API is installed on your machine, you can run
- * this code by running "php api-simple-example.php" on your terminal. The expected
- * result is "Hello World!", posted & retrieved via the API!
+ * this code by running "php api-simple-example.php" on your terminal. The
+ * expected result is "Hello World!", posted & retrieved via the API!
  */
 
 # Populates an array that represents the news item's data:
