@@ -6,8 +6,8 @@ This repository contains a few easy to follow examples build in PHP, which utili
 
 - [Prerequisites](./README.md#prerequisites): A local PHP development environment and a few other things...
 - [Getting started](./README.md#getting-started): How to install the API using Docker.
-- [Simple "Hello World!" example (using PHP's cURL to insert a News item)](./README.md#simple--hello-world---example-using-phps-curl): It couldn't be simpler!
-- [Advanced example (using API client libraries to insert a News item)](./README.md#advanced-example--creating--using-api-client-libraries-with-swagger-codegen): Although more advanced, it's just as easy!
+- [Simple "Hello World!" example (using PHP's cURL to insert a News item)](./README.md#simple-hello-world-example-using-phps-curl): It couldn't be simpler!
+- [Advanced example (using API client libraries to insert a News item)](./README.md#advanced-example-creating--using-api-client-libraries-with-swagger-codegen): Although more advanced, it's just as easy!
 
 
 ## Prerequisites
