@@ -1,15 +1,15 @@
 # Project specific excludes & includes
-openapi.json
-php-client-generated.zip
-/lib/*
-/SwaggerClient-php/*
-/SwaggerClient-php/**
-!/SwaggerClient-php/INSTALL.md
-.swagger-codegen-ignore
-VERSION
+**/lib/*
+**/SwaggerClient-php/*
+**/SwaggerClient-php/**
+**/!SwaggerClient-php/INSTALL.md
+**/openapi.json
+**/php-client-generated.zip
+**/.swagger-codegen-ignore
+**/VERSION
 # Force composer installation for education purposes
-vendor/*
 composer.lock
+vendor/*
 # General
 .DS_Store
 .AppleDouble

@@ -12,7 +12,7 @@
  */
 
 # Loading dependencies.
-require_once(__DIR__ . '/vendor/autoload.php');
+require_once __DIR__ . '/../../vendor/autoload.php';
 
 use Swagger\Client\Model\AIoDNews;
 use Swagger\Client\Configuration;
