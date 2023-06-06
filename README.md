@@ -5,7 +5,7 @@ This repository contains a few easy to follow examples build in PHP, which consu
 ## Prerequisites
 
 - Basic understanding of the PHP coding language
-- A local development environment which allows the execution of PHP code
+- A local development environment which allows execution of PHP code
 - [Docker](https://www.docker.com/) to install & run the AI-on-Demand API ([AIoD API](https://github.com/aiondemand/AIOD-rest-api))
 - [Composer](https://getcomposer.org/) for the *advanced* examples
 

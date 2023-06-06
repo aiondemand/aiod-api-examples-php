@@ -9,17 +9,18 @@
 **/VERSION
 # Force composer installation for education purposes
 composer.lock
-vendor/*
+**/vendor/*
 # General
-.DS_Store
+.apdisk
 .AppleDouble
+.directory
+.DS_Store
+.fuse_hidden*
+.idea/*
 .LSOverride
+.nfs*
+.Trash-*
+.vscode/*
 Icon
 Network Trash Folder
 Temporary Items
-.apdisk
-.fuse_hidden*
-.directory
-.Trash-*
-.nfs*
-.idea/*

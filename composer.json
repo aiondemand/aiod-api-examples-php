@@ -1,6 +1,6 @@
 {
     "name": "aiod/api-examples-php",
-    "description": "",
+    "description": "A repo demonstrating how one can consume the AIoD APIs using a PHP generated client via swagger (Open API) ",
     "require": {
         "php": "^7.4 || ^8.0",
         "ext-curl": "*",
