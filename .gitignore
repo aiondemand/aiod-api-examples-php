@@ -1,7 +1,15 @@
-# Project specific
+# Project specific excludes & includes
+openapi.json
+php-client-generated.zip
+/lib/*
 /SwaggerClient-php/*
+/SwaggerClient-php/**
 !/SwaggerClient-php/INSTALL.md
-!/SwaggerClient-php/example*.php
+.swagger-codegen-ignore
+VERSION
+# Force composer installation for education purposes
+vendor/*
+composer.lock
 # General
 .DS_Store
 .AppleDouble
@@ -14,5 +22,4 @@ Temporary Items
 .directory
 .Trash-*
 .nfs*
-openapi.json
 .idea/*

@@ -1,0 +1,15 @@
+{
+    "name": "aiod/api-examples-php",
+    "description": "",
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "guzzlehttp/guzzle": "7.2.0",
+        "guzzlehttp/psr7": "^1.7 || ^2.0"
+    },
+    "autoload": {
+        "psr-4": { "Swagger\\Client\\" : "SwaggerClient-php/lib/" }
+    }
+}
