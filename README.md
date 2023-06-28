@@ -1,6 +1,6 @@
 # AIoD API Examples: PHP
 
-This repository contains a few easy to follow examples build in PHP, which consume the AI-on-Demand API ([AIoD API](https://github.com/aiondemand/AIOD-rest-api) version [0.3.20220501](https://github.com/aiondemand/AIOD-rest-api/releases/tag/0.3.20220501)) to insert and/or retrieve data. 
+This repository contains a few easy to follow examples build in PHP, which consume the AI-on-Demand API ([AIoD API](https://github.com/aiondemand/AIOD-rest-api) version [0.3.20220501](https://github.com/aiondemand/AIOD-rest-api/releases/tag/0.3.20220501)) to send and/or retrieve data. 
 
 ## Prerequisites
 
@@ -13,14 +13,14 @@ This repository contains a few easy to follow examples build in PHP, which consu
 
 ## Getting started
 
-### Clone this repository to your local machine.
+### Clone the 'AIoD API Examples: PHP' repository
 
-Clone this repository to your local machine by running the following command
-
+Clone this repository to your local machine by running the following command:
 ```shell
 git clone git@github.com:aiondemand/aiod-api-examples-php.git
 ```
-An `aiod-api-example-php` folder will be created with the contents of this repository. Do not change to that folder, as you also have to clone, install & then run the AIoD API repository...
+
+An `aiod-api-examples-php` folder will be created with the contents of this repository. Do not change to that folder, as you also have to clone, install & then run the AIoD API repository.
 
 ### Clone, install & run the AIoD API repository
 
